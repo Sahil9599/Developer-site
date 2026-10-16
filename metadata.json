@@ -1,0 +1,6 @@
+{
+  "name": "Vanguard Engineering Studio",
+  "description": "Bespoke web, mobile, desktop, and custom software engineering services, featuring an interactive 3D showcase, verified portfolio, client testimonials, and real-time engagement analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
