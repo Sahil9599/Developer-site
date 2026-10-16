@@ -29,6 +29,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <span aria-hidden="true">·</span>
               <span>London</span>
             </div>
+            <div className="pt-1">
+              <a
+                href="mailto:zarki201432@gmail.com"
+                className="text-xs font-mono text-cyan-400 hover:text-cyan-300 underline underline-offset-2 transition-colors"
+              >
+                zarki201432@gmail.com
+              </a>
+            </div>
           </div>
 
           {/* Navigation Links */}

@@ -365,10 +365,13 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
               </p>
 
               <div className="space-y-3 pt-2 text-xs">
-                <div className="flex items-center gap-3 text-slate-300">
-                  <Mail className="w-4 h-4 text-cyan-400 shrink-0" />
-                  <span className="font-mono">partners@vanguardstudio.dev</span>
-                </div>
+                <a
+                  href="mailto:zarki201432@gmail.com"
+                  className="flex items-center gap-3 text-slate-300 hover:text-cyan-400 transition-colors group"
+                >
+                  <Mail className="w-4 h-4 text-cyan-400 shrink-0 group-hover:scale-110 transition-transform" />
+                  <span className="font-mono text-cyan-400 underline underline-offset-2">zarki201432@gmail.com</span>
+                </a>
                 <div className="flex items-center gap-3 text-slate-300">
                   <Clock className="w-4 h-4 text-cyan-400 shrink-0" />
                   <span>Monday – Friday · 08:00 – 19:00 UTC</span>
